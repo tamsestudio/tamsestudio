@@ -10,6 +10,20 @@
     <link rel="stylesheet" href="css/gridism.css">
     <link rel="stylesheet" href="css/normalize.css">
    <link rel="shortcut icon" href="favicon.ico"  type="image/x-icon">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $('body,html').animate({
+            scrollTop: 0
+        }, 800);
+    $('#btn-go-to-top').click(function () {
+        $('body,html').animate({
+            scrollTop: 0
+        }, 800);
+        return false;
+    });
+}); 
+</script>
 </head>
 
   <body class="wrap wider fadein">
@@ -123,6 +137,10 @@
      <div class="grid">
       <div class="unit whole align-center bump">
         <h1><a href="mailto:tamse.francesca@gmail.com?subject=Hey%20Francesca" class="highlight">tamse.francesca@gmail.com</a></h1>
+
+        <div id="btn-go-to-top">
+<h3>Back to top</h3>
+</div>
         
       </div>
     </div>
