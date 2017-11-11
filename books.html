@@ -20,6 +20,20 @@
     <link rel="stylesheet" href="css/normalize.css">
    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
 <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function(){
+        $('body,html').animate({
+            scrollTop: 0
+        }, 800);
+    $('#btn-go-to-top').click(function () {
+        $('body,html').animate({
+            scrollTop: 0
+        }, 800);
+        return false;
+    });
+}); 
+</script>
 </head>
 
   <body class="wrap wider fadein">
