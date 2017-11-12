@@ -75,6 +75,9 @@
   clear: both;
 }
 
+.narrow {max-width: 750px;}
+
+
 /* Utility classes */
 .align-center { text-align: center; }
 .align-left   { text-align: left; }
