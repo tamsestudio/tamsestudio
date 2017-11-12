@@ -46,6 +46,8 @@ input#hide:checked ~ span#content {
 .cent {text-align: center;}
 .narrow-img {width:70%;margin-left:15%;margin-right:15%;}
 
+.narrow-img-extra {width:40%;margin-left:30%;margin-right:30%;}
+
 p {font-size: 2em;text-indent: 50px; line-height: 150%;}
 
 @keyframes fadein {
@@ -242,7 +244,7 @@ p {font-size: 1.6em;text-indent: 30px; line-height: 150%;}
 
 a.para {border-bottom: 1px solid #0a0a0a; }
 a.para:hover {border-bottom: 1px solid #4e85a7;}
-
+.narrow-img-extra {width:70%;margin-left:15%;margin-right:15%;}
 
 }
 
