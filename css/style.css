@@ -1,3 +1,15 @@
+.accord-header { background: #fff; border-top: 1px solid #0a0a0a; border-bottom: 1px solid black; cursor: pointer;margin-bottom: 0px;transition: border 0.5s; }
+.accord-content { display: none; border-bottom: 1px solid #0a0a0a;padding-bottom: 0px;transition: border 0.5s;}
+.on { background: #fff; border-top: 1px solid #0a0a0a; border-bottom: 1px solid white;transition: border 0.25s;}
+
+
+.accord-header:hover {color:#9064af;-webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;}
+
+
+
+
 #btn-go-to-top:hover { color: #f1a819; cursor: pointer; -webkit-transition: all .3s ease-in-out;
   -moz-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
@@ -22,24 +34,7 @@ input#hide:checked ~ span#content {
 
 .extended-extra {font-size:.9em;text-indent: 0px;margin-top: -10px;margin-left:20px;}
 
-#statement-wrap {border-top: 1px solid black;border-bottom: 1px solid black;}
 
-.statement:hover {color: #f1a819; cursor: pointer; -webkit-transition: all .3s ease-in-out;
-  -moz-transition: all .3s ease-in-out;
-  transition: all .3s ease-in-out; 
-
-   }
-
-
-.statement-close
-{text-align: right;
-}
-   .statement-close:hover {color: #f1a819; cursor: pointer; -webkit-transition: all .3s ease-in-out;
-  -moz-transition: all .3s ease-in-out;
-  transition: all .3s ease-in-out;
-
-
-   }
 
 
 
@@ -112,7 +107,7 @@ body {
 
 
 h1 {
-	font-family: 'Chap';font-weight: 300;font-size: 3em; color: #0a0a0a;
+	font-family: 'Chap';font-weight: 300;font-size: 3em;
 }
 
 
