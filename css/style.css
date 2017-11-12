@@ -3,7 +3,7 @@
 .on { background: #fff; border-top: 1px solid #0a0a0a; border-bottom: 1px solid white;transition: border 0.25s;}
 
 
-.accord-header:hover {color:#9064af;-webkit-transition: all .3s ease-in-out;
+.accord-header:hover {color:#0a0a0a;-webkit-transition: all .3s ease-in-out;
   -moz-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;}
 
