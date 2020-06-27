@@ -249,3 +249,11 @@ a.insta:hover {color:#4ea756;border-bottom: 1px solid #4ea756;}
 
 }
 
+.hide-on-desktops {display:none;}
+
+/* Responsive Stuff */
+@media screen and (max-width: 568px) {
+  .hide-on-desktops {
+    display: block !important;
+  }
+}
