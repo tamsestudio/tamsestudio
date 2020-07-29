@@ -10,7 +10,7 @@
   .accord-header:visited {color: #0a0a0a;}
 
 
-
+.rwd-break {display: none;}
 
 #btn-go-to-top:hover { color: #f1a819; cursor: pointer; -webkit-transition: all .3s ease-in-out;
   -moz-transition: all .3s ease-in-out;
@@ -202,6 +202,10 @@ a.fineart:hover {color:#cca1a7;border-bottom: 2px solid #cca1a7;}
 
 
 @media only screen and (max-width: 768px)   {
+	
+	
+.rwd-break {display: block;}
+	
     #left {
         width:100%;text-align: center;height: 40px;font-size: .9em;margin-top: 16px;
     }
