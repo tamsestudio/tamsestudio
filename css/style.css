@@ -1,3 +1,7 @@
+.mob-br {
+  display: none;
+}
+
 .accord-header { background: #fff; border-top: 1px solid #0a0a0a; border-bottom: 1px solid black; cursor: pointer;margin-bottom: 0px;transition: border 0.5s; }
 .accord-content { display: none; border-bottom: 1px solid #0a0a0a;padding-bottom: 0px;transition: border 0.5s;}
 .on { background: #fff; border-top: 1px solid #0a0a0a; border-bottom: 1px solid white;transition: border 0.25s;}
@@ -270,6 +274,11 @@ a.insta:hover {color:#4ea756;border-bottom: 1px solid #4ea756;}
 
 /* Responsive Stuff */
 @media screen and (max-width: 568px) {
+	
+	 .mob-br {
+    display: block;
+  }
+	
   .hide-on-desktops {
     display: block !important;
   }
