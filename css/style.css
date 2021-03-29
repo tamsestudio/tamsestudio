@@ -135,6 +135,7 @@ a.para {border-bottom: 2px solid #0a0a0a;margin:0px; }
 a.para:hover {border-bottom: 2px solid #4e85a7; color:#4e85a7;}
 
 
+a.lunches:hover {color: #f39300;}
 a.people:hover {color: #f39300;}
 
 a.collages:hover {color: #f3d70b;}
@@ -271,6 +272,8 @@ a.insta:hover {color:#4ea756;border-bottom: 1px solid #4ea756;}
 }
 
 .hide-on-desktops {display:none;}
+
+h3 {line-height: 205%;}
 
 /* Responsive Stuff */
 @media screen and (max-width: 568px) {
