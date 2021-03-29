@@ -277,10 +277,12 @@ a.insta:hover {color:#4ea756;border-bottom: 1px solid #4ea756;}
 
 h3 {line-height: 205%;}
 
-.page-title {margin-top:10%;}
+
 
 /* Responsive Stuff */
 @media screen and (max-width: 568px) {
+	
+	.page-title {margin-top:10%;}
 	
 	 .mob-br {
     display: block;
