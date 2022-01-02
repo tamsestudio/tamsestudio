@@ -1,4 +1,5 @@
 .caption-styled {
+	font-size: 16px;
 line-height: 4;
     color: white;
     -webkit-touch-callout: none;
@@ -345,6 +346,10 @@ h3 {line-height: 205%;}
 
 /* Responsive Stuff */
 @media screen and (max-width: 568px) {
+	
+	.caption-styled {
+	font-size: 12px;
+}
 	
 	.page-title {margin-top:10%;}
 	
