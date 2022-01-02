@@ -358,7 +358,7 @@ h3 {line-height: 205%;}
     display: block;
   }
 	
-	.extra-padding-top {margin-top:17%;}
+	.extra-padding-top {margin-top:11%!important;}
 
 	
   .hide-on-desktops {
