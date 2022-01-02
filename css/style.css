@@ -11,6 +11,7 @@ line-height: 4;
     padding: 8px 12px 8px 12px;
     border-radius: 100px;
     vertical-align: middle;
+	margin-right:23px;
 }
 
 .caption-styled-landscape {position:relative; bottom:-77%;width:auto;margin:0;padding:0;-webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none;}
@@ -47,7 +48,7 @@ line-height: 4;
   opacity: 0;
   cursor: default;
   transition: opacity 0.2s linear;
- text-align:center;
+ text-align:right;
 }
 .image-hover-text:hover 
 {
