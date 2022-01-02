@@ -1,5 +1,5 @@
-.caption-styled {line-height: 4; color: white;}
-.caption-styled-dark {line-height: 4; color: black;}
+.caption-styled {line-height: 4; color: white;-webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none;}
+.caption-styled-dark {line-height: 4; color: black;-webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none;}
 
 
 .caption-styled-landscape {position:relative; bottom:-77%;width:auto;margin:0;padding:0;-webkit-touch-callout: none; -webkit-user-select: none; -khtml-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none;}
