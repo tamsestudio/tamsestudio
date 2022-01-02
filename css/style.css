@@ -1,25 +1,43 @@
-.caption_img {
-  
-  .img-text {
-    position: absolute;
-    bottom: -32px;
-    right: 0px;
-    width:100%;
-    color:black;
-    text-align:center;
-    opacity: 0;
-    visibility: hidden;
-    -webkit-transition: visibility 0s, opacity 0.5s linear;
-    transition: visibility 0s, opacity 0.5s linear;
-  }
-  &:hover {
-    .img-text {
-      visibility: visible;
-      opacity: 1;
-     
-    }
-  }
+.image-hover-text-container 
+{
+  position: relative;
+  display: inline-block;
+  width: auto;
+  height: auto;
+  transition: all 0.2s linear;
 }
+
+.image-hover-image 
+{
+ display: block;
+}
+/* Make the image round */
+.image-hover-image img {
+
+
+  
+}
+
+
+
+.image-hover-text 
+{
+  position: absolute;
+  top: 0; 
+  width: 100%;  
+  height: 100%;
+  opacity: 0;
+  cursor: default;
+  transition: opacity 0.2s linear;
+ text-align:center;
+}
+.image-hover-text:hover 
+{
+  opacity: 1;
+}
+
+
+
 
 .mob-br {
   display: none;
