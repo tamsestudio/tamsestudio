@@ -199,6 +199,9 @@ a:hover{ color: #4ea756;}
 a.para {border-bottom: 2px solid #0a0a0a;margin:0px; }
 a.para:hover {border-bottom: 2px solid #4e85a7; color:#4e85a7;}
 
+a.published {border-bottom: 1px solid #0a0a0a;margin:0px; }
+a.published:hover {border-bottom: 1px solid #f39300; color:#f39300;}
+
 
 a.lunches:hover {color: rebeccapurple;}
 a.people:hover {color: #f39300;}
